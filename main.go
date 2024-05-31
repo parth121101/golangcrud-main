@@ -10,11 +10,11 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"
 )
-
+ 
 const (
 	dbDriver = "mysql"
 	dbUser   = "root"
-	dbPass   = "Rohitsharma@456"
+	dbPass   = "*********"
 	dbName   = "gocrud_app"
 )
 
