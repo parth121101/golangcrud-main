@@ -1,1 +1,1 @@
-# golangcrud
+This project implements crud APIs using mysql and golang services
