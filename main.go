@@ -106,7 +106,7 @@ func getUserHandler(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(user)
-}
+} 
 
 func updateUserHandler(w http.ResponseWriter, r *http.Request) {
 	// Extract the ID from the URL
